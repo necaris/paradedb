@@ -1,10 +1,12 @@
 mod cjk;
 mod code;
+mod icu;
 mod lindera;
 
 use crate::parade_index::fields::{ParadeOption, ParadeOptionMap, ParadeTokenizer};
 use crate::tokenizers::cjk::ChineseTokenizer;
 use crate::tokenizers::code::CodeTokenizer;
+use crate::tokenizers::icu::IcuTokenizer;
 use crate::tokenizers::lindera::{
     LinderaChineseTokenizer, LinderaJapaneseTokenizer, LinderaKoreanTokenizer,
 };
